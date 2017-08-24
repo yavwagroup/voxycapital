@@ -1,0 +1,1 @@
+To work script need to add file cron.php to hosting CRON Jobs to be runed every minute.

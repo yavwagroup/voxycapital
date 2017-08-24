@@ -1,0 +1,21 @@
+**Server requirements**
+Apache 2.2 Server
+PHP 5.4+ (not native)
+MySQL Database Server
+Apache mod_rewrite **ON**
+PHP mysqli extension
+PHP allow_url_fopen **ON**
+PHP curl extension
+PHP gmp extension
+
+If you no have hosting and domain, we can give you hosting $80/per year + FREE DOMAIN
+We recommend GoDaddy Hosting
+
+**How to install:**
+1. Download archive from your email
+2. Unzip archive and upload it to your server web directory
+3. When upload is ready set chmod 777 of folder **includes** and check if file **.htaccess** exists in root directory. If not exists upload it manually. If you use **cPanel** open **File Manager** and in top-right have button "Settings" click there and have checkbox "Show hidden files (dot files)", allow it.
+4. Open your website address, the install wizard will be automatically runed. Complete all fields and install it.
+5. To run script successfully need to add **cron.php** file to your hosting Cron Jobs, this is need to update transactions and users balances. Cron Job execute command is **/usr/bin/php -q /home/your username/public_html/cron.php** add it to be run every minute.
+
+If you have some other problems or questions you can contact with **support@exchangesoftware.info**
